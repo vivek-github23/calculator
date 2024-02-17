@@ -1,3 +1,3 @@
 FROM ubuntu:latest
-COPY calculator.java /app/calculator.sh
+COPY calculator.sh /app/calculator.sh
 # CMD sed -i 's/\r$//' /app/calculator.sh
